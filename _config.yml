@@ -1,0 +1,15 @@
+exclude:
+  - blog/api/venv
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - .git
+  - .gitignore
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default" 
